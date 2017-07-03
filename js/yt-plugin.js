@@ -1,8 +1,9 @@
  function onYouTubeIframeAPIReady() {
   var player;
+  var videoid = 'iSNpEi2vWXI';
     console.log(document.getElementById("home").offsetWidth/document.getElementById("home").offsetHeight)
   player = new YT.Player('muteYouTubeVideoPlayer', {
-    videoId: 'iSNpEi2vWXI', // YouTube Video ID
+    videoId: videoid, // YouTube Video ID
     frameborder: 0,
     width: document.getElementById("home").offsetWidth,               // Player width (in px)
     height: document.getElementById("home").offsetWidth/1.7775,              // Player height (in px)
@@ -17,11 +18,11 @@
       iv_load_policy: 3,  // Hide the Video Annotations
       autohide: 0,        // Hide video controls when playing
       disablekb: 1,
-        rel:0
+      playlist: videoid
     },
     events: {
       onReady: function(e) {
-        player.setPlaybackQuality('hd720');
+        player.setPlaybackQuality('highres');
         e.target.mute();
       }
     }
