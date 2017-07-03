@@ -81,7 +81,7 @@ $(function(){
 
     /* start navigation top js */
     $(window).scroll(function(){
-        if($(this).scrollTop()>58){
+        if($(this).scrollTop()>30){
             $(".templatemo-nav").addClass("sticky");
         }
         else{

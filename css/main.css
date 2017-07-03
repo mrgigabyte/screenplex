@@ -190,6 +190,7 @@ header .social-icon li a
 	color: #28A7E9; 
 }
 .templatemo-nav {
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
 	border-radius: 0;	
 	width: 100%;
 	z-index: 1000;
