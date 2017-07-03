@@ -130,8 +130,8 @@ h2 span
 header
 	{
 		min-height: 20px;
-		padding-top: 18px;
-		padding-bottom: 10px;
+        padding-bottom: 6px;
+        padding-top: 6px;
 	}
 header .fa
 	{
@@ -464,10 +464,11 @@ header .social-icon li a
 /* end contact */
 
 /* start copyright */
-#copyright
-	{
-		padding: 20px;
-	}
+#copyright {
+    background-color: #fff;
+    color: #000;
+    padding: 9px 0 0 1px;
+}
 #copyright p
 	{
 		font-weight: 400;
@@ -561,6 +562,7 @@ header .social-icon li a
     	top: 0;
 	}
 	header {
+        
 		margin-top: 70px;
 	}
 	header .social-icon {
